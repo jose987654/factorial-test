@@ -1,7 +1,7 @@
 var assert = require("assert");
 const factorial = require("./Factorial");
 
-describe("factorial function", () => {
+describe("Factorial Function unit tests", () => {
   // Test 1 :
   it("TEST 1", () => {
     assert.equal(factorial(0), 1);
